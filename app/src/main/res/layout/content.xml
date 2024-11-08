@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/book_title"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/author_name"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="Author"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/genre"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="Genre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/publication_year"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="Year"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/status"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="Status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </TextView>
+
+</LinearLayout>
